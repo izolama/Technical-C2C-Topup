@@ -59,9 +59,6 @@ Topup C2C Transaction Fragment
 ```
 <sub> 
 Metode "displayTopupC2CTransaction" ini merupakan sebuah override method yang diimplementasikan dalam sebuah kelas, mungkin dalam konteks sebuah aplikasi berbasis Android atau Java. Fungsinya adalah untuk menampilkan transaksi top-up peer-to-peer (C2C) dengan jumlah yang telah dibayar ke dalam suatu fragmen.
-
-Langkah-langkah yang dijalankan dalam metode ini adalah sebagai berikut:
-
 Mengatur tampilan top bar (atau bilah atas) menjadi terlihat (VISIBLE).
 Mengatur variabel stateDisplay menjadi DISPLAY_PAYMENT, yang mungkin digunakan untuk mengatur status atau tampilan lainnya dalam aplikasi.
 Memulai sebuah transaksi fragment menggunakan getSupportFragmentManager() untuk mengelola tampilan fragment dalam aktivitas.
